@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaticWebUI</title>
+
+    <style>
+        body {
+            border: 1px solid black;
+            margin: 20px;
+        }
+
+        #mainsect {
+            margin: 20px;
+        }
+
+        main {
+            height: 600px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        #leftcontent {
+            float: left;
+            height: 300px;
+            width: 70%;
+        }
+
+        .sect {
+            height: 300px;
+            width: 98%;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #rightcontent {
+            float: left;
+            height: 620px;
+            border: 1px solid black;
+            width:29%;
+            text-align: center;
+        }
+
+        footer {
+            clear: both;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="mainsect">
+        <header style="text-align: center; border: 1px solid black; margin-bottom: 10px;">
+            <h1>Header</h1>
+        </header>
+
+        <nav style="text-align: center; border: 1px solid black; margin-bottom: 10px;">
+            <h1>Navbar</h1>
+        </nav>
+
+        <main>
+            <section>
+                <section id="leftcontent">
+                    <section class="sect">
+                        <h2>Section</h2>
+                    </section>
+                    <br>
+                    <article class="sect">
+                        <h2>Article</h2>
+                    </article>
+                </section>
+                <section id="rightcontent">
+                    <aside>
+                        <h2>Aside</h2>
+                    </aside>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <h2>
+                Footer
+            </h2>
+        </footer>
+    </section>
+</body>
+
+</html>
